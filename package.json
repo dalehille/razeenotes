@@ -1,0 +1,41 @@
+{
+  "name": "razeenotes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "GATSBY_TELEMETRY_DISABLED=1 gatsby develop",
+    "build": "GATSBY_TELEMETRY_DISABLED=1 gatsby build",
+    "clean": "GATSBY_TELEMETRY_DISABLED=1 gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalehille/razeenotes.git"
+  },
+  "keywords": [
+    "razee",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dalehille/razeenotes/issues"
+  },
+  "homepage": "https://github.com/dalehille/razeenotes#readme",
+  "dependencies": {
+    "@tippyjs/react": "^4.0.2",
+    "gatsby": "^2.20.36",
+    "gatsby-plugin-mdx": "^1.2.13",
+    "gatsby-plugin-postcss": "^2.2.4",
+    "gatsby-remark-embedder": "^2.1.1",
+    "gatsby-theme-andy": "^0.1.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "tailwindcss": "^1.3.5"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "autoprefixer": "^9.7.6"
+  }
+}
